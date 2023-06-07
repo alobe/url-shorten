@@ -3,9 +3,10 @@ main = "src/worker.ts"
 compatibility_date = "2023-06-07"
 
 # # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+[[kv_namespaces]]
+binding = "LINKS"
+id = "fe6629be18b6452c8505495d3afc7f26"
+preview_id = "50625ab2e083490faa7523fac6e3100d"
 
 # # Durable Object binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/durable-objects
 # [[durable_objects]]
